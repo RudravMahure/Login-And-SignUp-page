@@ -9,5 +9,20 @@ First of all you have to register youself in the website for this we have regisr
 
 Backend has some routers for loading pages. Handles events and many more.
 
+Files:
+sign up and login
+|->nodules(create it using   npm init -y )
+|-->package.json
+|-->package-lock.json
+|-->src
+   |-->db-->conn.js
+   |-->models-->registration.js
+   |-->public-->css
+                 |-->login.css
+                 |-->registration.css
+                 |-->style.css
+   |-->views-->all hbs files
+   |-->app.js
+
 
 Rudrav Mahure 
