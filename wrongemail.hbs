@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Already exist email </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .message {
+            font-size: 100px;
+            color: red;
+        }
+
+        .registration-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p>Already exist email</p>
+    </div>
+    
+    <form action="/registration" method="get">
+        <button class="registration-button" value="registration"> <a href="/registration">Go to Registration </a></button>
+    </form>
+
+    <script>
+        function redirectToRegistration() {
+            // You can replace 'registration.html' with the actual URL of your registration page
+            window.location.href = 'registration.html';
+        }
+    </script>
+</body>
+</html>
